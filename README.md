@@ -1,7 +1,12 @@
-<h1> Creating a Data Frame of Job Postings from Scratch<h1>
+<h1> Creating a Data Frame of Job Postings from Scratch</h1>
+
+I started this project when I was still living in Newfoundland and was working as a Data Scientist at the Center for Health Informatics and Analytics (CHIA). After a while I decided to move to another city and was curious to see how the job market is for Data Scientists in other cities. At first it was obvious that Toronto would have the highest number of job postings for data scientist, but I was also thinking that if you consider the high population of Toronto, then would you still say that if you move to Toronto you would have a higher chance of getting hired? In fact, <b>this is the question we are going to answer in this project.</b><br>
+This is what we are going to see in this project, but it is not the only thing we will do in this project.
+So for this project, the first an the most important thing we need is data, but how we are going to get this data? I wasn't able to find any open data online, so I decided to create my own data set from scratch. This is what we would also do in this project.
+
 
 <b>Here we are going to create our own data set from real data. </b><br>
-In fact, if you are a data scientist and want to work with some real data, this article would help you create your own data set of job postings data.
+In fact, this article would also help you if you are a data scientist and want to work with some real data, so you can create your own data set of job postings.
 Here we will show how you can scrape the Internet to extract data and create your own real-life data set. The website that we are going to scrape is www.indeed.ca in order to extract job postings data.<br>
 We will get the job titles, company name, location, job posting URL, and more importantly, the job description.<br>
 For this purpose.<br><br>
@@ -16,13 +21,13 @@ We will use the BeautifulSoup python library for the scraping part, and after we
 
 <b>Your questions and comments are welcome! <br></b>
 
-This is how the data frame will look like after we scrape the data:
+<br><br>This is how the data frame will look like after we scrape the data:
 
-<img src='DF.png'>
 
-And this is a basic chart from the data showing the number of Data Science jobs by city.
 
-<img src='Chart_01.png'>
+<br><br>And this is a basic chart from the data showing the number of Data Science jobs by city.
+
+<img src='Chart_01.PNG'>
 
 <h3>We will do this in five steps:<br></h3>
 <ul>
