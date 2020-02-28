@@ -23,7 +23,7 @@ We will use the BeautifulSoup python library for the scraping part, and after we
 
 <br><br>This is how the data frame will look like after we scrape the data:
 
-
+<img src='DF.png'>
 
 <br><br>And this is a basic chart from the data showing the number of Data Science jobs by city.
 
