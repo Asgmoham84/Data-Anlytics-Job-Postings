@@ -1,6 +1,13 @@
 <h1> Creating a Data Frame of Job Postings from Scratch</h1>
 
-I started this project when I was still living in Newfoundland and was working as a Data Scientist at the Center for Health Informatics and Analytics (CHIA). After a while I decided to move to another city and was curious to see how the job market is for Data Scientists in other cities. At first it was obvious that Toronto would have the highest number of job postings for data scientist, but I was also thinking that if you consider the high population of Toronto, then would you still say that if you move to Toronto you would have a higher chance of getting hired? In fact, <b>this is the question we are going to answer in this project.</b><br><br>
+I started this project when I was still living in Newfoundland and was working as a Data Scientist at the Center for Health Informatics and Analytics (CHIA). After a while I decided to move to another city and was curious to see how the job market is for Data Scientists in other cities. At first it was obvious that Toronto would have the highest number of <b>job postings</b> for data scientist, but I was also thinking that if you consider the high population of Toronto, then would you still say that if you move to Toronto, would you still have the highest chance of getting hired? In this project we will show that although Toronto has the highest nmuber of Data Science jobs, but you will have a higher chance in Vancouver and Waterloo to get hired, rather compared to Toronto.</b><br><br>
+
+<img src='Chart_01.PNG'>
+<img src='Chart_02.PNG'>
+
+
+
+
 This is what we are going to see in this project, but it is not the only thing we will do in this project.
 So for this project, the first an the most important thing we need is data, but how we are going to get this data? I wasn't able to find any open data online, so I decided to create my own data set from scratch. This is what we would also do in this project.
 
@@ -25,19 +32,21 @@ We will use the BeautifulSoup python library for the scraping part, and after we
 
 <img src='DF.png'>
 
-<br><br>And this is a basic chart from the data showing the number of Data Science jobs by city.
 
-<img src='Chart_01.PNG'>
 
-<h3>We will do this in five steps:<br></h3>
+<h3>These are the steps we take for this project:<br></h3>
 <ul>
-<li> Importing the libraries<br>
-<li> Creating a URL (a string) to brings us to the job posting site with the searching element we have defined<br>
-<li> Getting the number of jobs that are found as our search result. We need this to loop over each and every job posting's URL, and then get the information. We need to know how many jobs and how many pages we are going to scrape<br>
-<li> Extracting job postings information from the url and having them as a data frame<br>
-<li> Saving the data into a CSV file<br>
-<li> Doing some data cleansing
-<li> Visualization of the distribution of the jobs by Canadian cities
+    <li> Importing the libraries<br>
+    <li> Creating a URL (a string) to brings us to the job posting site with the searching element we have defined<br>
+    <li> Getting the number of jobs that are found as our search result. We need this to loop over each and every job posting's URL, and then get the information. We need to know how many jobs and how many pages we are going to scrape<br>
+    <li> Extracting job postings information from the url and having them as a data frame<br>
+    <li> Saving the data into a CSV file<br>
+    <li> Doing some data cleansing
+    <li> Doing a group_by to get the number of jobs by location
+    <li> Visualization of the distribution of the jobs by Canadian cities
+    <li> Merging the results with the population data set
+    <li> Calcualting rates of available jobs by 100,000 people
+    <li> Visualization of the results
     
 </ul>
 
