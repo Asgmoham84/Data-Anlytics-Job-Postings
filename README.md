@@ -1,4 +1,5 @@
 <h1> Creating a Data Frame of Job Postings from Scratch</h1>
+<h2> As a Data Scientist, in what city you will have the highest chance to get hired?</h2>
 
 I started this project when I was still living in Newfoundland and was working as a Data Scientist at the Center for Health Informatics and Analytics (CHIA). After a while I decided to move to another city and was curious to see how the job market is for Data Scientists in other cities. At first it was obvious that Toronto would have the highest number of <b>job postings</b> for data scientist, but I was also thinking that if you consider the high population of Toronto, then would you still say that if you move to Toronto, would you still have the highest chance of getting hired? In this project we will show that although Toronto has the highest nmuber of Data Science jobs, but you will have a higher chance in Vancouver and Waterloo to get hired, rather compared to Toronto.</b><br><br>
 
