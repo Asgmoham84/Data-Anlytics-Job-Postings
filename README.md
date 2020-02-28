@@ -1,4 +1,7 @@
-If you are a data scientist and want to work with some real data, this article would help you create your own data set of job postings data.
+<h1> Creating a Data Frame of Job Postings from Scratch<h1>
+
+<b>Here we are going to create our own data set from real data. </b><br>
+In fact, if you are a data scientist and want to work with some real data, this article would help you create your own data set of job postings data.
 Here we will show how you can scrape the Internet to extract data and create your own real-life data set. The website that we are going to scrape is www.indeed.ca in order to extract job postings data.<br>
 We will get the job titles, company name, location, job posting URL, and more importantly, the job description.<br>
 For this purpose.<br><br>
@@ -11,8 +14,15 @@ In this notebook we will use:<br>
 <b>Matplotlib</b> for the visualization. We will create some basic graphs in the end. If you are not already familiar with Matplotlib please click <a href='https://matplotlib.org/'> here</a> <br><br>
 We will use the BeautifulSoup python library for the scraping part, and after we have the data set ready, we will do some data visualizations with Matplotlib.<br><br>
 
-Your questions and comments are welcome!
+<b>Your questions and comments are welcome! <br></b>
 
+This is how the data frame will look like after we scrape the data:
+
+<img src='DF.png'>
+
+And this is a basic chart from the data showing the number of Data Science jobs by city.
+
+<img src='Chart_01.png'>
 
 <h3>We will do this in five steps:<br></h3>
 <ul>
