@@ -28,7 +28,7 @@ We will use the BeautifulSoup python library for the scraping part, and after we
 
 <br><br>This is how the data frame will look like after we scrape the data:
 
-<img src='DF.png'>
+<img src='DataFrame.png'>
 
 
 
