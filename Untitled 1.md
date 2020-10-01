@@ -41,9 +41,9 @@ This is how the data frame will look like after we scrape the data:
 -   Calcualting rates of available jobs by 100,000 people
 -   Visualization of the results
 
-Second Part:
+<h2>Second Part:</h2>
 
-In this part, we are going to answer these questions:
+<b>In this part, we are going to answer these questions:</b>
 
 1. What are the most wanted data science skills in the overal job market?
 
@@ -55,7 +55,7 @@ In this part, we are going to answer these questions:
 
 In this part, we will use a data set of job postings that we created using the previous part. The data set includes job postings data for 5 different job titles including Data Science, Carpenter, Registered Nurse, and Customer Service Representative.
 
-Steps we took to answer question 1:
+<b>Steps we took to answer question 1:</b>
 
 1. Taking Data Science jobs as well as one other job title (we chose carpenter in this case)
 
@@ -75,7 +75,7 @@ As you can see, the model was able to detect words such as sql, analytics, machi
 
 But we can still improve these results by using TFIDF method.
 
-Using TFIDF:
+<h4>Using TFIDF:</h4>
 
 Tfidf means Term Frequency Inverse Document Frequency. This is a method that gives a weight to each word, and the words that appear only in specific documents but don’t appear in the other documents will get a high weight, but the words that eighted appear in long documents, or appear in both documents will get a low weight.
 
@@ -100,7 +100,7 @@ Now the word cloud shows how Machine Learning and Statistics are the most import
 
 <img src='2_06.jpg'>
 
-But is this going be the same in each city? Let’s see..
+<h3>But is this going be the same in each city? Let’s see..</h3>
 
 We took 4 of these skills as examples and looked into the number of jobs in each city that are asking for this skill and the result was as follows:
 
